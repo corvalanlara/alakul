@@ -73,21 +73,21 @@
         <div class="buttons">
           <a class="button is-ghost" target="_blank" href="https://www.instagram.com/alakul_gh_in_altynarashan/">
 		  <i class="icon">
-			  <svg>
+			  <svg aria-label="Instagram account">
 			  	<use xlink:href="/assets/icons/instagram.svg#1"></use>
 			  </svg>
 		  </i>
           </a>
           <a class="button is-ghost" target="_blank" href="https://www.facebook.com/Altyn.arashan/">
 		  <i class="icon">
-			  <svg>
+			  <svg aria-label="Facebook page">
 			  	<use xlink:href="/assets/icons/facebook.svg#1"></use>
 			  </svg>
 		 </i>
           </a>
           <a class="button is-ghost" target="_blank" href="https://wa.me/+996703160414">
-		  <i class="icon"">
-			  <svg>
+		  <i class="icon">
+			  <svg aria-label="WhatsApp number">
 			  	<use xlink:href="/assets/icons/whatsapp.svg#1"></use>
 			  </svg>
 		  </i>
@@ -106,12 +106,12 @@
 	    <div class="box invertido">
 	        <div class="icono">
 	                <i class="icon is-large">
-	                    <svg>
-	    			<use xlink:href="/assets/icons/horse.svg#1"></use>
+										<svg role="img" aria-labelledby="transport.by.horse">
+	    									<use xlink:href="/assets/icons/horse.svg#1"></use>
 	                    </svg>
 	                </i>
 	        </div>
-		<p>By horse</p>
+					<p id="transport.by.horse">By horse</p>
 	    </div>
 	</a>
 </div>
@@ -121,12 +121,12 @@
 	    <div class="box invertido">
 	        <div class="icono">
 	                <i class="icon is-large">
-	                    <svg>
-	    			<use xlink:href="/assets/icons/car-side.svg#1"></use>
+										<svg role="img" aria-labelledby="transport.by.car">
+	    									<use xlink:href="/assets/icons/car-side.svg#1"></use>
 	                    </svg>
 	                </i>
 	        </div>
-		<p>By jeep</p>
+					<p id="transport.by.car">By jeep</p>
 	    </div>
 	</a>
 </div>
@@ -136,12 +136,12 @@
 	    <div class="box invertido">
 	        <div class="icono">
 	                <i class="icon is-large">
-	                    <svg>
-	    			<use xlink:href="/assets/icons/hiking.svg#1"></use>
+										<svg role="img" aria-labelledby="transport.by.hiking">
+	    									<use xlink:href="/assets/icons/hiking.svg#1"></use>
 	                    </svg>
 	                </i>
 	        </div>
-		<p>By hiking</p>
+					<p id="transport.by.hiking">By hiking</p>
 	    </div>
 	</a>
 </div>
@@ -162,7 +162,7 @@
                    <div class="columns is-vcentered">
                        <div class="column">
                            <figure class="image is-square">
-				                    <img class="cobertura" src="/assets/images/transport/horse.jpg" />
+                               <img class="cobertura" src="/assets/images/transport/horse.jpg" alt="alt.transport.horse" />
                            </figure>
                        </div>
                        <div class="column has-text-left">
@@ -194,7 +194,7 @@
                        </div>
                        <div class="column second">
                            <figure class="image is-square">
-				                        <img class="cobertura" src="/assets/images/logoalakol.jpg" />
+                               <img class="cobertura" src="/assets/images/logoalakol.jpg" alt="alt.transport.jeep" />
                            </figure>
                        </div>
                    </div>
@@ -214,7 +214,7 @@
                    <div class="columns is-vcentered">
                        <div class="column">
                            <figure class="image is-square">
-				                    <img class="cobertura" src="/assets/images/transport/hike.jpg" />
+                               <img class="cobertura" src="/assets/images/transport/hike.jpg" alt="alt.transport.hike" />
                            </figure>
                        </div>
                        <div class="column has-text-left">
@@ -275,7 +275,7 @@
 </section>
 
 	<div class="pattern naranjo"></div>
-<div id="epona" title="히잉">🐎</div>
+<div aria-hidden="true" id="epona" title="히잉">🐎</div>
 
 <footer class="footer has-background-primary-50">
   <div class="content has-text-centered has-text-white">
@@ -283,18 +283,18 @@
     <p>개발된 <a class="betarraga" href="https://betarraga.com">betarraga</a></p>
   </div>
 </footer>
-<div class="mountains is-hidden-touch is-hidden-desktop-only">
-<div class="mountain">
-<div class="snow"></div>
-<div class="snow-jagged"></div>
-</div>
-
-<div class="mountain-shadow">
-<div class="snow-shadow"></div>
-</div>
-
-<div class="mountain-1"></div>
-<div class="mountain-shadow-1"></div>
+<div aria-hidden="true" class="mountains is-hidden-touch is-hidden-desktop-only">
+	<div class="mountain">
+		<div class="snow"></div>
+		<div class="snow-jagged"></div>
+	</div>
+	
+	<div class="mountain-shadow">
+		<div class="snow-shadow"></div>
+	</div>
+	
+	<div class="mountain-1"></div>
+	<div class="mountain-shadow-1"></div>
 </div>
 
 

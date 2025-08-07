@@ -1,0 +1,23 @@
+// Set your brand colors
+$naranja: #EA7000;
+$musgo: #9FB900;
+$lightgreen: #C6D41E;
+$darkgreen: #386641;
+$azul: #019BD8;
+$celeste: #00D5EA;
+$beige-light: #FED16A;
+$beige-lighter: #FFF4A4;
+
+// Path to Bulma's sass folder
+@use "bulma/sass" with (
+  $family-primary: '"Chiron Hei HK", sans-serif',
+  $primary: $darkgreen,
+  $link: $beige-light,
+  $warning: $naranja,
+  $info: $azul,
+  $success: $musgo,
+  $control-border-width: 2px,
+);
+
+// Import the Google Font
+@import url('https://fonts.googleapis.com/css2?family=Chiron+Hei+HK:ital,wght@0,200..900;1,200..900&display=swap');

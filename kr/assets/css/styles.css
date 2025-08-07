@@ -95,7 +95,12 @@
 	}
 }
 .hero-imagen {
-	background-image: url("../images/hero-homepage.jpg");
+	background-image: url("../images/index/hero-homepage.jpg");
+	background-image: image-set(
+		url("../images/index/hero-homepage.avif") type("image/avif"),
+		url("../images/index/hero-homepage.webp") type("image/webp"),
+		url("../images/index/hero-homepage.jpg") type("image/jpeg")
+	);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -227,6 +232,11 @@
 
 #sirota, #botonsirota {
 	background-image: url("../images/tours/altynarashan.jpg");
+	background-image: image-set(
+		url("../images/tours/altynarashan.avif") type("image/avif"),
+		url("../images/tours/altynarashan.webp") type("image/webp"),
+		url("../images/tours/altynarashan.jpg") type("image/jpeg")
+	);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -234,6 +244,11 @@
 
 #horse1, #botonhorse1 {
 	background-image: url("../images/tours/hotspring.jpg");
+	background-image: image-set(
+		url("../images/tours/hotspring.avif") type("image/avif"),
+		url("../images/tours/hotspring.webp") type("image/webp"),
+		url("../images/tours/hotspring.jpg") type("image/jpeg")
+	);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -241,6 +256,11 @@
 
 #horse2, #botonhorse2 {
 	background-image: url("../images/tours/valley.jpg");
+	background-image: image-set(
+		url("../images/tours/valley.avif") type("image/avif"),
+		url("../images/tours/valley.webp") type("image/webp"),
+		url("../images/tours/valley.jpg") type("image/jpeg")
+	);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -248,6 +268,11 @@
 
 #horse3, #botonhorse3 {
 	background-image: url("../images/tours/alakul.jpg");
+	background-image: image-set(
+		url("../images/tours/alakul.avif") type("image/avif"),
+		url("../images/tours/alakul.webp") type("image/webp"),
+		url("../images/tours/alakul.jpg") type("image/jpeg")
+	);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;

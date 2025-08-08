@@ -1,31 +1,3 @@
-@media(max-width: 1023px) {
-	.reversed {
-		/*flex-direction: column-reverse;*/
-    display: flex;
-		flex-flow: column;
-	}
-	
-	.second {
-		order: 1;		
-	}
-
-	.first {
-		order: 2;
-	}
-	.dropdown-vertical {
-		visibility: hidden;
-		display: none;	
-	}
-	.dropdown-horizontal {
-		visibility: visible;
-		display: block;
-	}
-	#epona {
-		visibility: hidden;
-		display: none;
-	}
-}
-
 .cobertura {
 	height: 100%;
 	object-fit: cover;
@@ -84,23 +56,16 @@
 	color: #7A1F3D;
 }
 
-@media(min-width: 1024px) {
-	.dropdown-vertical {
-		visibility: visible;
-		display: inherit;	
-	}
-	.dropdown-horizontal {
-		visibility: hidden;
-		display: none;
-	}
-}
 .hero-imagen {
-	background-image: url("../images/index/hero-homepage.jpg");
-	background-image: image-set(
-		url("../images/index/hero-homepage.avif") type("image/avif"),
-		url("../images/index/hero-homepage.webp") type("image/webp"),
-		url("../images/index/hero-homepage.jpg") type("image/jpeg")
-	);
+		background-image: url("../images/index/hero-homepage.jpg");
+		background-image: image-set(
+			url("../images/index/hero-homepage-1.avif") 1x type("image/avif"),
+			url("../images/index/hero-homepage-1.webp") 1x type("image/webp"),
+			url("../images/index/hero-homepage-1.jpg") 1x type("image/jpeg"),
+			url("../images/index/hero-homepage.avif") 2x type("image/avif"),
+			url("../images/index/hero-homepage.webp") 2x type("image/webp"),
+			url("../images/index/hero-homepage.jpg") 2x type("image/jpeg")
+		);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -230,50 +195,101 @@
 	position: relative;
 }
 
-#sirota, #botonsirota {
+#sirota {
 	background-image: url("../images/tours/altynarashan.jpg");
 	background-image: image-set(
-		url("../images/tours/altynarashan.avif") type("image/avif"),
-		url("../images/tours/altynarashan.webp") type("image/webp"),
-		url("../images/tours/altynarashan.jpg") type("image/jpeg")
+		url("../images/tours/altynarashan-1.avif") 1x type("image/avif"),
+		url("../images/tours/altynarashan-1.webp") 1x type("image/webp"),
+		url("../images/tours/altynarashan-1.jpg") 1x type("image/jpeg"),
+		url("../images/tours/altynarashan.avif") 2x type("image/avif"),
+		url("../images/tours/altynarashan.webp") 2x type("image/webp"),
+		url("../images/tours/altynarashan.jpg") 2x type("image/jpeg")
 	);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-#horse1, #botonhorse1 {
+#horse1 {
 	background-image: url("../images/tours/hotspring.jpg");
 	background-image: image-set(
-		url("../images/tours/hotspring.avif") type("image/avif"),
-		url("../images/tours/hotspring.webp") type("image/webp"),
-		url("../images/tours/hotspring.jpg") type("image/jpeg")
+		url("../images/tours/hotspring-1.avif") 1x type("image/avif"),
+		url("../images/tours/hotspring-1.webp") 1x type("image/webp"),
+		url("../images/tours/hotspring-1.jpg") 1x type("image/jpeg"),
+		url("../images/tours/hotspring.avif") 2x type("image/avif"),
+		url("../images/tours/hotspring.webp") 2x type("image/webp"),
+		url("../images/tours/hotspring.jpg") 2x type("image/jpeg")
 	);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-#horse2, #botonhorse2 {
+#horse2 {
 	background-image: url("../images/tours/valley.jpg");
 	background-image: image-set(
-		url("../images/tours/valley.avif") type("image/avif"),
-		url("../images/tours/valley.webp") type("image/webp"),
-		url("../images/tours/valley.jpg") type("image/jpeg")
+		url("../images/tours/valley-1.avif") 1x type("image/avif"),
+		url("../images/tours/valley-1.webp") 1x type("image/webp"),
+		url("../images/tours/valley-1.jpg") 1x type("image/jpeg"),
+		url("../images/tours/valley.avif") 2x type("image/avif"),
+		url("../images/tours/valley.webp") 2x type("image/webp"),
+		url("../images/tours/valley.jpg") 2x type("image/jpeg")
 	);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-#horse3, #botonhorse3 {
+#horse3 {
 	background-image: url("../images/tours/alakul.jpg");
 	background-image: image-set(
-		url("../images/tours/alakul.avif") type("image/avif"),
-		url("../images/tours/alakul.webp") type("image/webp"),
-		url("../images/tours/alakul.jpg") type("image/jpeg")
+		url("../images/tours/alakul-1.avif") 1x type("image/avif"),
+		url("../images/tours/alakul-1.webp") 1x type("image/webp"),
+		url("../images/tours/alakul-1.jpg") 1x type("image/jpeg"),
+		url("../images/tours/alakul.avif") 2x type("image/avif"),
+		url("../images/tours/alakul.webp") 2x type("image/webp"),
+		url("../images/tours/alakul.jpg") 2x type("image/jpeg")
 	);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+@media(max-width: 1023px) {
+	.reversed {
+		/*flex-direction: column-reverse;*/
+    display: flex;
+		flex-flow: column;
+	}
+	
+	.second {
+		order: 1;		
+	}
+
+	.first {
+		order: 2;
+	}
+	.dropdown-vertical {
+		visibility: hidden;
+		display: none;	
+	}
+	.dropdown-horizontal {
+		visibility: visible;
+		display: block;
+	}
+	#epona {
+		visibility: hidden;
+		display: none;
+	}
+}
+
+@media (min-width: 1024px) {
+	.dropdown-vertical {
+		visibility: visible;
+		display: inherit;	
+	}
+	.dropdown-horizontal {
+		visibility: hidden;
+		display: none;
+	}
 }

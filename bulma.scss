@@ -9,7 +9,7 @@ $beige-light: #FED16A;
 $beige-lighter: #FFF4A4;
 
 // Path to Bulma's sass folder
-@use "bulma/sass" with (
+@use "bulma/sass/utilities" with (
   $family-primary: '"Chiron Hei HK", sans-serif',
   $primary: $darkgreen,
   $link: $beige-light,
@@ -18,6 +18,33 @@ $beige-lighter: #FFF4A4;
   $success: $musgo,
   $control-border-width: 2px,
 );
+
+// Import the components you need
+@forward "bulma/sass/base";
+@forward "bulma/sass/components/card";
+@forward "bulma/sass/components/navbar";
+@forward "bulma/sass/components/message";
+@forward "bulma/sass/elements/box";
+@forward "bulma/sass/elements/button";
+@forward "bulma/sass/elements/content";
+@forward "bulma/sass/elements/delete";
+@forward "bulma/sass/elements/icon";
+@forward "bulma/sass/elements/image";
+@forward "bulma/sass/elements/notification";
+@forward "bulma/sass/elements/table";
+@forward "bulma/sass/elements/title";
+@forward "bulma/sass/layout/container";
+@forward "bulma/sass/layout/hero";
+@forward "bulma/sass/layout/section";
+@forward "bulma/sass/layout/footer";
+@forward "bulma/sass/form/input-textarea";
+@forward "bulma/sass/form/shared";
+@forward "bulma/sass/form/tools";
+
+// Import the themes so that all CSS variables have a value
+@forward "bulma/sass/themes";
+@forward "bulma/sass/helpers";
+@forward "bulma/sass/grid";
 
 // Import the Google Font
 @import url('https://fonts.googleapis.com/css2?family=Chiron+Hei+HK:ital,wght@0,200..900;1,200..900&display=swap');

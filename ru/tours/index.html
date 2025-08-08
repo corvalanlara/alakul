@@ -6,10 +6,42 @@
 	<meta name="description" content="Ala-Köl Guesthouse in Altyn Arashan, Kyrgyzstan, offers cozy rooms, traditional yurts, jeep and horse transportation, and guided hiking and horse riding tours in the stunning Tien Shan mountains.">
 	<meta name="keywords" content="guesthouse, karakol, kyrgyzstan, hostel, altyn arashan, ala kul">
 	<title>Гостевой дом Ала Кул</title>
-	<link rel="stylesheet" href="/alakul/assets/css/bulma.css">
-  <link rel="stylesheet" href="/alakul/assets/css/styles.css">
+	<link rel="stylesheet" href="/alakul/assets/css/bulma.min.css">
+	<link rel="stylesheet" href="/alakul/assets/css/styles.min.css">
 	<link rel="apple-touch-icon" href="/alakul/assets/images/apple-touch-icon.png">
 	<link rel="icon" type="image/x-icon" href="/alakul/assets/images/favicon.ico">
+	<link rel="preload" fetchpriority="high" as="image" href="/alakul/assets/images/index/hero-homepage-1.avif" type="image/avif">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Chiron+Hei+HK:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+	<style>
+	body.has-navbar-fixed-top {
+  	padding-top: 3.25rem;
+	}
+	.navbar {
+  	min-height: 3.25rem;
+  	position: relative;
+  	z-index: 30;
+	}
+	.hero {
+  	align-items: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: space-between;
+	}
+	@media screen and (min-width: 769px), print {
+  .hero.is-medium .hero-body {
+    padding: 9rem 4.5rem;
+  }
+	.hero.is-fullheight .hero-body {
+  	align-items: center;
+  	display: flex;
+	}
+	.hero.is-fullheight {
+  	min-height: 100vh;
+	}
+
+	</style>
 </head>
 <body class="has-navbar-fixed-top">
 	<main>
@@ -1050,7 +1082,41 @@ There is a clear path from Ala-Köl lake to the top of the pass. The ascent to t
 
 
 	</main>
-	<script src="/alakul/assets/js/bulma.js"></script>
-	<script src="/alakul/assets/js/script.js"></script>
+	<script>
+	document.addEventListener('DOMContentLoaded', () => {
+	
+	  // Get all "navbar-burger" elements
+	  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+	
+	  // Add a click event on each of them
+	  $navbarBurgers.forEach( el => {
+	    el.addEventListener('click', () => {
+	
+	      // Get the target from the "data-target" attribute
+	      const target = el.dataset.target;
+	      const $target = document.getElementById(target);
+	
+	      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+	      el.classList.toggle('is-active');
+	      $target.classList.toggle('is-active');
+	
+	    });
+	  });
+	
+	});
+	document.addEventListener('DOMContentLoaded', () => {
+	  (document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
+	    const $notification = $delete.parentNode;
+	
+	    $delete.addEventListener('click', () => {
+	      $notification.parentNode.removeChild($notification);
+	    });
+	  });
+	});
+	
+	if (document.URL.includes("#sent")) {
+		document.querySelector('.notification').classList.remove('is-hidden')
+	}
+	</script>
 </body>
 </html>

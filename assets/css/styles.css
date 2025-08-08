@@ -3,6 +3,10 @@
 	object-fit: cover;
 }
 
+.redondo {
+	border-radius: 50% 50%;
+}
+
 .abajo {
 	object-position: center bottom;
 }

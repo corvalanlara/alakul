@@ -1,36 +1,41 @@
-.cobertura{height:100%;object-fit:cover}.abajo{object-position:center bottom}.altura .column .card{height:100%;display:flex;flex-direction:column}.altura .column .card-footer{margin-top:auto}.sameheight{height:100%}#epona{cursor:pointer;text-align:right;margin-right:-5%;animation:moveRight 90s linear .5s 1 normal forwards}@keyframes moveRight{0%{margin-right:-5%}100%{margin-right:75%}}.invertido{filter:invert(1);mix-blend-mode:difference}.icono{height:3em;width:auto}.espacio{line-height:1.6em}.destacado{background-color:rgba(255,255,255,.8);padding:.2em}.betarraga{color:#7a1f3d}.hero-imagen{background-image:url("../images/index/hero-homepage.jpg");background-image:image-set(
-			url("../images/index/hero-homepage-1.avif") 1x type("image/avif"),
-			url("../images/index/hero-homepage-1.webp") 1x type("image/webp"),
-			url("../images/index/hero-homepage-1.jpg") 1x type("image/jpeg"),
-			url("../images/index/hero-homepage.avif") 2x type("image/avif"),
-			url("../images/index/hero-homepage.webp") 2x type("image/webp"),
-			url("../images/index/hero-homepage.jpg") 2x type("image/jpeg")
+.cobertura{height:100%;object-fit:cover}.abajo{object-position:center bottom}.altura .column .card{height:100%;display:flex;flex-direction:column}.altura .column .card-footer{margin-top:auto}.sameheight{height:100%}#epona{cursor:pointer;text-align:right;margin-right:-5%;animation:moveRight 90s linear .5s 1 normal forwards}@keyframes moveRight{0%{margin-right:-5%}100%{margin-right:75%}}.invertido{filter:invert(1);mix-blend-mode:difference}.icono{height:3em;width:auto}.espacio{line-height:1.6em}.destacado{background-color:rgba(255,255,255,.8);padding:.2em}.betarraga{color:#7a1f3d}#hero-imagen{background-image:url("../images/index/hero-homepage.jpg");background-image:image-set(
+			url("../images/index/hero-homepage.avif") type("image/avif"),
+			url("../images/index/hero-homepage.webp") type("image/webp"),
+			url("../images/index/hero-homepage.jpg") type("image/jpeg")
 		);background-position:center center;background-repeat:no-repeat;background-size:cover}.pattern{background-image:url("../icons/motif2.svg");background-repeat:space;background-size:3rem auto;height:3rem;margin-bottom:1em;margin-top:3em}.pattern-short{background-image:url("../icons/motif.svg");background-repeat:space;background-size:3rem auto;height:3rem}.rojo{filter:brightness(0) saturate(100%) invert(17%) sepia(99%) saturate(2610%) hue-rotate(342deg) brightness(89%) contrast(98%)}.verde{filter:brightness(0) saturate(100%) invert(51%) sepia(88%) saturate(375%) hue-rotate(100deg) brightness(86%) contrast(86%)}.naranjo{filter:brightness(0) saturate(100%) invert(45%) sepia(93%) saturate(1718%) hue-rotate(3deg) brightness(94%) contrast(102%)}.mountain{position:absolute;content:'';bottom:0;left:120px;border-top:0 solid transparent;border-right:180px solid transparent;border-bottom:350px solid #5ad07d;border-left:180px solid transparent;z-index:5}.mountain-shadow{position:absolute;content:'';bottom:0;left:300px;border-top:0 solid transparent;border-right:140px solid transparent;border-bottom:350px solid #357639;border-left:0 solid transparent;z-index:5;transform-origin:top right;transform:skewX(18deg)}.snow{position:absolute;content:'';bottom:-98px;left:-50px;border-top:0 solid transparent;border-right:50px solid transparent;border-bottom:100px solid #ddd;border-left:50px solid transparent;z-index:6}.snow-shadow{position:absolute;content:'';bottom:-87px;left:0;border-top:0 solid transparent;border-right:35px solid transparent;border-bottom:100px solid #ccc;border-left:0 solid transparent;z-index:6;transform-origin:top right;transform:skewY(-18deg)}.snow-jagged{position:absolute;content:'';bottom:-130px;left:-45px;border-top:40px solid #ddd;border-right:25px solid transparent;border-bottom:0 solid transparent;border-left:25px solid transparent;z-index:6}.mountain-1{position:absolute;content:'';bottom:0;left:60px;border-top:0 solid transparent;border-right:130px solid transparent;border-bottom:150px solid #68f193;border-left:130px solid transparent;z-index:5}.mountain-shadow-1{position:absolute;content:'';bottom:0;left:190px;border-top:0 solid transparent;border-right:100px solid transparent;border-bottom:150px solid #40945c;border-left:0 solid transparent;z-index:5;transform-origin:top right;transform:skewX(18deg)}.mountains{position:relative}#sirota{background-image:url("../images/tours/altynarashan.jpg");background-image:image-set(
-		url("../images/tours/altynarashan-1.avif") 1x type("image/avif"),
-		url("../images/tours/altynarashan-1.webp") 1x type("image/webp"),
-		url("../images/tours/altynarashan-1.jpg") 1x type("image/jpeg"),
-		url("../images/tours/altynarashan.avif") 2x type("image/avif"),
-		url("../images/tours/altynarashan.webp") 2x type("image/webp"),
-		url("../images/tours/altynarashan.jpg") 2x type("image/jpeg")
+		url("../images/tours/altynarashan.avif") type("image/avif"),
+		url("../images/tours/altynarashan.webp") type("image/webp"),
+		url("../images/tours/altynarashan.jpg") type("image/jpeg")
 	);background-position:center center;background-repeat:no-repeat;background-size:cover}#horse1{background-image:url("../images/tours/hotspring.jpg");background-image:image-set(
-		url("../images/tours/hotspring-1.avif") 1x type("image/avif"),
-		url("../images/tours/hotspring-1.webp") 1x type("image/webp"),
-		url("../images/tours/hotspring-1.jpg") 1x type("image/jpeg"),
-		url("../images/tours/hotspring.avif") 2x type("image/avif"),
-		url("../images/tours/hotspring.webp") 2x type("image/webp"),
-		url("../images/tours/hotspring.jpg") 2x type("image/jpeg")
+		url("../images/tours/hotspring.avif") type("image/avif"),
+		url("../images/tours/hotspring.webp") type("image/webp"),
+		url("../images/tours/hotspring.jpg") type("image/jpeg")
 	);background-position:center center;background-repeat:no-repeat;background-size:cover}#horse2{background-image:url("../images/tours/valley.jpg");background-image:image-set(
-		url("../images/tours/valley-1.avif") 1x type("image/avif"),
-		url("../images/tours/valley-1.webp") 1x type("image/webp"),
-		url("../images/tours/valley-1.jpg") 1x type("image/jpeg"),
-		url("../images/tours/valley.avif") 2x type("image/avif"),
-		url("../images/tours/valley.webp") 2x type("image/webp"),
-		url("../images/tours/valley.jpg") 2x type("image/jpeg")
+		url("../images/tours/valley.avif") type("image/avif"),
+		url("../images/tours/valley.webp") type("image/webp"),
+		url("../images/tours/valley.jpg") type("image/jpeg")
 	);background-position:center center;background-repeat:no-repeat;background-size:cover}#horse3{background-image:url("../images/tours/alakul.jpg");background-image:image-set(
-		url("../images/tours/alakul-1.avif") 1x type("image/avif"),
-		url("../images/tours/alakul-1.webp") 1x type("image/webp"),
-		url("../images/tours/alakul-1.jpg") 1x type("image/jpeg"),
-		url("../images/tours/alakul.avif") 2x type("image/avif"),
-		url("../images/tours/alakul.webp") 2x type("image/webp"),
-		url("../images/tours/alakul.jpg") 2x type("image/jpeg")
-	);background-position:center center;background-repeat:no-repeat;background-size:cover}@media(max-width:1023px){.reversed{display:flex;flex-flow:column}.second{order:1}.first{order:2}.dropdown-vertical{visibility:hidden;display:none}.dropdown-horizontal{visibility:visible;display:block}#epona{visibility:hidden;display:none}}@media (min-width:1024px){.dropdown-vertical{visibility:visible;display:inherit}.dropdown-horizontal{visibility:hidden;display:none}}
+		url("../images/tours/alakul.avif") type("image/avif"),
+		url("../images/tours/alakul.webp") type("image/webp"),
+		url("../images/tours/alakul.jpg") type("image/jpeg")
+	);background-position:center center;background-repeat:no-repeat;background-size:cover}@media(max-width:1023px){.reversed{display:flex;flex-flow:column}.second{order:1}.first{order:2}.dropdown-vertical{visibility:hidden;display:none}.dropdown-horizontal{visibility:visible;display:block}#epona{visibility:hidden;display:none}}@media (min-width:1024px){.dropdown-vertical{visibility:visible;display:inherit}.dropdown-horizontal{visibility:hidden;display:none}}@media (max-width:768px){#hero-imagen{background-image:url("../images/index/hero-homepage-1.jpg");background-image:image-set(
+			url("../images/index/hero-homepage-1.avif") type("image/avif"),
+			url("../images/index/hero-homepage-1.webp") type("image/webp"),
+			url("../images/index/hero-homepage-1.jpg") type("image/jpeg")
+		)}#horse3{background-image:url("../images/tours/alakul-1.jpg");background-image:image-set(
+			url("../images/tours/alakul-1.avif") type("image/avif"),
+			url("../images/tours/alakul-1.webp") type("image/webp"),
+			url("../images/tours/alakul-1.jpg") type("image/jpeg")
+		)}#horse2{background-image:url("../images/tours/valley-1.jpg");background-image:image-set(
+			url("../images/tours/valley-1.avif") type("image/avif"),
+			url("../images/tours/valley-1.webp") type("image/webp"),
+			url("../images/tours/valley-1.jpg") type("image/jpeg")
+		)}#horse1{background-image:url("../images/tours/hotspring-1.jpg");background-image:image-set(
+			url("../images/tours/hotspring-1.avif") type("image/avif"),
+			url("../images/tours/hotspring-1.webp") type("image/webp"),
+			url("../images/tours/hotspring-1.jpg") type("image/jpeg")
+		)}#sirota{background-image:url("../images/tours/altynarashan-1.jpg");background-image:image-set(
+			url("../images/tours/altynarashan-1.avif") type("image/avif"),
+			url("../images/tours/altynarashan-1.webp") type("image/webp"),
+			url("../images/tours/altynarashan-1.jpg") type("image/jpeg")
+		)}}
